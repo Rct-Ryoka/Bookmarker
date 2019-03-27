@@ -1,0 +1,98 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato' , 'Arial' , sans-serif;
+    font-size: 25px;
+    background-color: #fff;
+    color: #2d3436;
+    text-rendering: optimizeLegibility;
+    font-weight: 400;
+}
+
+
+/* reusable components */
+
+.input-container {
+    margin: 20px auto;
+    width: 50%;
+    height: 100%;
+    background-color: #e17055;
+    border-radius: 10px;
+    padding:20px;
+}
+
+.row {
+    margin : 0 auto;
+    width: 50%;
+ 
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.flex-container input {
+    outline: none;
+    border-radius: 5px;
+}
+
+/* Input components */
+
+.flex-container h1 {
+    text-transform: uppercase;
+}
+.flex-container > * {
+    margin-top: 10px;
+}
+
+.flex-container input{
+    padding: 10px;
+    width : 100%;
+}
+
+.submitBtn {
+    width : 25%;
+    padding : 10px;
+}
+
+/* List Components */
+
+.list-container{
+    
+    margin-top : 30px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    padding : 1rem;
+}
+
+.bookmarkBtn {
+    text-decoration: none;
+    color: #2c3e50;
+    margin-left: 20px;
+    background-color:  #fff;
+    padding : 5px;
+    border-radius: 4px;
+    font-size: 25px;
+    border-color: #ccc;
+}
+
+.bookmarkBtn:hover{
+    background-color: #e74c3c;
+}
+
+.deleteBtn {
+    background-color: #fff;
+  
+}
+
+.deleteBtn:hover{
+
+    background-color: #e74c3c;
+}
